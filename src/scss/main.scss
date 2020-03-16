@@ -1,0 +1,20 @@
+.main-screen {
+  width: auto;
+  height: auto;
+  display: flex;
+  .side-bar {
+    border: 1px solid green;
+    float: left;
+    width: 21%;
+  }
+
+  .post-view {
+    width: 79%;
+    .post-detail {
+      border: 1px solid blue;
+      float: right;
+      //   width: 79%;
+      width: 100%;
+    }
+  }
+}
